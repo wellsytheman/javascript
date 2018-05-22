@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style>
+  #div1 {width:100px; height:50px; background: pink; border: 1px solid blue; display:none;}
+  . box {width:200px; height:100px; background: orange; border: 1px solid green; display:none;}
+  </style>
+  <meta http-equiv="content-type" content="text/html";
+  charset="gb2312"/>
+  <title>GG</title>
+  <script type="text/javascript">
+  // window.onload=function ()
+  // {
+  //   var oDiv = document.getElementById('div1');
+  //
+  //   oDiv.onmouseover = Appear;
+  //   oDiv.onmouseout = Disappear;
+  // };
+
+  function Appear()
+  {
+    var odiv1 = document.getElementById('div1');
+    odiv1.style.display='block';
+  }
+
+  function Disappear()
+  {
+    var odiv1 = document.getElementById('div1');
+    odiv1.style.display = 'none';
+  }
+  </script>
+</head>
+
+<body>
+<label
+onclick='Appear()' ondrop=""='Disappear()'
+>
+<input type = 'checkbox' /> hello baby
+</label>
+<div id = 'div1'>
+  Don't call me baby
+</div>
+</body>
+</html>
